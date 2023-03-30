@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Object</h3>
+    <script>
+        var intro = {
+            FName:"Sartaj",
+            LName:"Qamar",
+
+            Age : "25",
+            Email: "sartajqamar111@gmail.com",
+            Address: "Neelum valley",
+            favMovies:["Cheeta","TumBin","Sholay","GO WENT GONE","Dil"],
+            living : { 
+                city : 'Neelem Valley',
+                State : 'Azad Kashmir'
+
+            },
+            Salary: function(){
+                return 25000;
+              
+           
+            },
+            fullname: function(){
+                return this.FName + " " + this.LName;
+            }
+        }
+        //document.write(intro);
+        //console.log(intro);
+       
+        //document.write(intro.Name,"<br>");
+        document.write(intro.living.State +"<br>"+ intro.living.city+ "<br>");
+        
+
+        //document.write(intro.Salary()+ "<br>");
+        //document.write(intro.favMovies[3]);
+    </script>
+</body>
+</html>

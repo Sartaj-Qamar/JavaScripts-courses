@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Parameters Function</h3>
+    <script>
+        function nam(fname = "abc" ,lname="cdf")
+        {
+            document.write("My Name is" + " " + fname + " "+ lname + "<br>");
+        }
+        function Address(tem,permanent)
+        {
+            document.write("My address is" + " " + tem + " " +  permanent + "<br>" );
+        }
+        nam("Sartaj","Qamar");
+        Address("Pandi","neelum");
+        function edu(matric = "Mirpur" , fsc = "Multan")
+        {
+            document.write(matric + " " + fsc);
+        }
+        edu();
+    </script>
+</body>
+</html>

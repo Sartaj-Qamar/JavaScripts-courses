@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Multidiementional Arrays</h4>
+    <script>
+      var ary = [
+        ["Harry","14","Male","B.com"],
+        ["Sunny","35","Male","BSCS"],
+        ["Ahsan","23","Male","FSC"],
+        ["Baba","32","Male","Matric"]
+      ]  
+      
+     
+      document.write(ary.length);
+      document.write("<table border='3px' cellspacing='0'");
+          for(a = 0; a<4; a++)
+          {
+            document.write("<tr>"); 
+                
+        for(var b =0;b<4;b++)
+        {
+            document.write("<td>"+ary[a][b] + " </td>");
+          }
+          
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+</html>

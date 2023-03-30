@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Return Function in JS</h3>
+    <script>
+        function fulname(fname,lname)
+        {
+ var a = fname + "-"+ lname;
+ return a;
+        }
+        var fn = fulname("Sartaj","Qamar");
+        document.write(fn);
+        function sum(mth,eng,phy){
+            var s= mth + eng + phy;
+            return s;
+            
+        }
+        function percentage(tm){
+            var per = tm/300*100;
+            document.write(per);
+        }
+        var total= sum(22,52,44);
+        percentage(total);
+    </script>
+</body>
+</html>
